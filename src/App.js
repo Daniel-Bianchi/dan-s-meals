@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Parts/Footer';
+import Header from './Parts/Header';
+
+
+
 
 function App() {
+
   return (
     <div className="App">
-          <h1 className="text-8xl font-bold underline">
-      Hello world!
-    </h1>
+      <Header />
+      <Footer />
     </div>
   );
 }
